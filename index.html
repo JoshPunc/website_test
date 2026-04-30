@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="Deutsch">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/styles.css">
+        <title>NoteVault</title>
+    </head>
+
+    <body>
+            <header>
+                <h1>NoteVault</h1>
+
+            </header>
+
+            <main>
+                <!--Nav Bar-->
+                <span class="nav">
+                    <button class="dropdown-btn"><img class="burger" src="Pictures/burger.png" alt="Burger Menu"></button>
+                    <div class="dropdown-container">
+                        <a href="index.html">Startpage</a>
+                        <a href="it-fundementals.html">IT-Fundementals</a>
+                        <a href="algorithmen.html">Algorithmen</a>
+                        <a href="betriebssystem-windows.html">Betriebssystem Windows</a>
+                        <a href="submit.html">Notizen einsenden</a>
+
+                    </div>
+                </span>
+
+                <!--Banner-->
+                <img src="Pictures/banner.png" alt="Website Banner" class="banner">
+
+
+                <!--Main content-->
+                <div class="layout">
+                    <aside>
+
+                        <h2>To-Do List</h2>
+                        <hr>
+                        <div class="addToDoList">
+                            <input type="text" id="input-box" placeholder="To-Do">
+                            <button onclick="addTask">+</button>
+                        </div>
+                        <hr>
+                        <ul class="toDoList">
+                            <li>Task 1</li>
+                            <li>Task 2</li>
+                        </ul>
+
+                        <hr>
+
+                        <button type="button">ToDo löschen</button>
+                        <script src="js/todo.js"></script>
+                    </aside>
+
+
+                    <section class="content">
+
+                        <h2>Kurse</h2>
+
+                        <br>
+                        <div class="container">
+
+                            <a href="it-fundementals.html" class="box-course">
+                                <img src="Pictures/it-fundementals.jpg" alt="Symbol of IT-Fundementals">
+                                <h3>IT-Fundementals</h3>
+                            </a>
+
+                            <a href="algorithmen.html" class="box-course">
+                                <img src="Pictures/algo.jpg" alt="Symbol of Algorithmen">
+                                <h3>Algorithmen</h3>
+                            </a>
+
+                            <a href="betriebssystem-windows.html" class="box-course">
+                                <img src="Pictures/betriebssystem-windows.jpg" alt="Symbol of Betriebssystem Windows">
+                                <h3>Betriebssystem Windows</h3>
+                            </a>
+
+                            <a href="linux-camp.html" class="box-course">
+                                <img src="Pictures/linux.jpg" alt="Symbol of Linux-Camp">
+                                <h3>Linux-Camp</h3>
+                            </a>
+
+                            <a href="telematik.html" class="box-course">
+                                <img src="Pictures/telematik.png" alt="Symbol of Telematik">
+                                <h3>Telematik</h3>
+                            </a>
+
+                            <a href="datenbanken.html" class="box-course">
+                                <img src="Pictures/datenbank.jpg" alt="Symbol of Datenbanken">
+                                <h3>Datenbanken</h3>
+                            </a>
+
+                            <a href="webtraining.html" class="box-course">
+                                <img src="Pictures/webg.jpg" alt="Symbol of WebTraining">
+                                <h3>Web Training</h3>
+                            </a>
+
+                            <a href="ioe.html" class="box-course">
+                                <img src="Pictures/iot.jpg" alt="Symbol of IoE">
+                                <h3>IoE</h3>
+                            </a>
+
+                            <a href="applikationsentwicklung.html" class="box-course">
+                                <img src="Pictures/appli.jpg" alt="Symbol of Applikationsentwicklung">
+                                <h3>Applikationsentwicklung</h3>
+                            </a>
+
+                        </div>
+
+                    </section>
+                </div>
+            </main>
+
+        <footer>
+            <p>🄯 2025 NoteVault</p>
+            <a href="impressum.html">Impressum</a>
+        </footer>
+
+    </body>
+
+</html>
